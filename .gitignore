@@ -1,0 +1,41 @@
+# Local environments and editor/runtime caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials and local settings
+.env
+.env.*
+.pgpass
+.pg_service.conf
+*.pem
+*.key
+credentials*.json
+
+# Licensed datasets, trained models, and generated results
+/data/
+/models/
+/results/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Interrupted downloads, notebook outputs, and scheduler logs
+*.partial
+*.tmp
+*.log
+slurm-*.out
+*.executed.ipynb
+*executed*.ipynb
